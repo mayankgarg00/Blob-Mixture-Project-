@@ -6,16 +6,7 @@ export default defineConfig({
     build: {
         outDir: 'dist',
         sourcemap: false,
-        minify: 'terser',
-        terserOptions: {
-            compress: true,
-            mangle: true
-        },
-        rollupOptions: {
-            output: {
-                manualChunks: undefined
-            }
-        }
+        minify: 'esbuild'
     },
     server: {
         port: 5173,
