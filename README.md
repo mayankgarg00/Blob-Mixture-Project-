@@ -13,22 +13,30 @@ This project demonstrates how mixture models provide a more flexible, probabilis
 * 📊 Visual comparison between actual and predicted clusters
 * 🧠 Uses Expectation-Maximization (EM Algorithm)
 * 🎯 Works on synthetic blob datasets for clear intuition
+
+
 🎯 Objectives
 * Generate or use blob-like datasets
 * Apply Gaussian Mixture Models for clustering
 * Visualize and interpret clustering outputs
 * Understand soft clustering vs hard clustering
+
+
 🧠 Concepts Covered
 * Clustering Techniques
 * Gaussian Mixture Models (GMM)
 * Expectation-Maximization (EM Algorithm)
 * Probability Density Functions
 * Soft vs Hard Clustering
+
+
 🛠️ Tech Stack
 * Category	Tools Used
 * Language	Python
 * Libraries	NumPy, Scikit-learn
 * Visualization	Matplotlib, Seaborn
+
+
 📂 Project Structure
 Blob-Mixture-Project/
 │── data/              # Dataset files
@@ -36,27 +44,43 @@ Blob-Mixture-Project/
 │── src/               # Core implementation
 │── results/           # Output plots and results
 │── README.md
+
+
 ⚙️ Installation & Setup
+
+
 1️⃣ Clone the Repository
 git clone https://github.com/mayankgarg00/Blob-Mixture-Project-
 cd Blob-Mixture-Project-
+
+
 2️⃣ Install Dependencies
 pip install -r requirements.txt
+
+
 3️⃣ Run the Project
 python src/main.py
+
+
 📊 Results & Insights
 Successfully clusters blob datasets using GMM
 Captures overlapping clusters better than traditional methods
 Provides probabilistic cluster assignments
+
+
 
 👉 The output includes:
 
 Cluster plots
 Model predictions vs actual distribution
 Visualization of Gaussian components
+
+
 📸 Sample Output
 
 (Add your plots here for maximum impact — this is VERY important for recruiters)
+
+
 
 🔮 Future Improvements
 🔗 Apply on real-world datasets
@@ -74,6 +98,8 @@ This project goes beyond basic clustering and demonstrates:
 Understanding of probabilistic machine learning
 Ability to implement unsupervised learning algorithms
 Strong grasp of data visualization and interpretation
+
+
 🤝 Contributing
 
 Contributions are welcome!
